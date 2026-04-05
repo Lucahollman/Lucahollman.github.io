@@ -2,13 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:62762/</loc>
-    <lastmod>2026-04-05T11:22:59+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:62762/search/</loc>
-    <lastmod>2026-04-05T11:22:59+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:62762/categories/</loc>
+    <lastmod>2026-04-05T11:09:26+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62762/</loc>
     <lastmod>2026-04-05T11:09:26+01:00</lastmod>
   </url><url>
     <loc>http://localhost:62762/categories/opinion/</loc>
@@ -28,6 +25,10 @@
   </url><url>
     <loc>http://localhost:62762/categories/research/</loc>
     <lastmod>2026-04-04T22:38:35+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62762/page/</loc>
+  </url><url>
+    <loc>http://localhost:62762/page/search/</loc>
   </url><url>
     <loc>http://localhost:62762/tags/</loc>
   </url>
