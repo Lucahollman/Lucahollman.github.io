@@ -6,4 +6,3 @@ description = "Research study investigating the"
 categories = ["Research"]
 +++
 
-Hello Hello Yadah
