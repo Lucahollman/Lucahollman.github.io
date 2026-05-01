@@ -11,7 +11,7 @@ My name is Luca Hollman. I am a 3rd year Economics and Political Science student
 
 ### What Is This Site
 
-This website is a space to share my research, ideas, and projects. I use it to publish analysis, dicuss political topics, and highlight the skills I’m developing in data science and coding.
+This website is a space to share my research, ideas, and projects. I use it to publish analysis, discuss political topics, and highlight the skills I’m developing in data science and coding.
 
 ### Skills 
 
