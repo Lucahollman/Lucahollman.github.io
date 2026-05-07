@@ -16,11 +16,10 @@ This website is a space to share my research, ideas, and projects. I use it to p
 ### Skills 
 
 - **Programming:** R, Stata  
-- **Data Tools:** Tidyverse, Excel, RStudio  
-- **Workflow:** Git, Markdown
-- **Data Science:** Regression modelling, quantitative research design, data visualisation  
-- **Policy & Research Analysis:** Literature reviews, policy document analysis, academic writing  
-- **Data Work:** Electoral datasets, socio‑economic data, cleaning and preparation  
+- **Tools & Workflow:**  Git, LaTeX 
+- **Data Science:** Regression modelling, quantitative research design 
+- **Data Work:** Electoral and socio-economic datasets; cleaning and preparation 
+- **Research Analysis:**  Literature reviews & policy document analysis 
 
 
 ### Hobbies
