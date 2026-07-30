@@ -1,0 +1,84 @@
+/* Styling for Index page */
+
+.title {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.title h1 {
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    text-align: left;
+    display: block;
+}
+
+.title p {
+    color: #948f80;
+    font-size: 14px;
+    font-style: italic;
+    text-align: left;
+    display: block;
+    margin-top: -28px;
+}
+
+.index_list {
+    display: flex;
+    gap: 4px 0;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+    border-top: 1px solid #201f1c;
+    border-bottom: 1px solid #201f1c;
+    padding: 10px 0;
+
+}
+
+.index_list a {
+    color: var(--ink);
+    text-decoration: none;
+    font-size: 12px;
+    padding: 4px 14px;
+    border-right: 1px solid #e3ddcf;
+}
+
+index_list a:first-child { padding-left: 0; }
+index_list a:last-child { border-right: none; }
+index_list a:hover { color: #a3502e; }
+
+.pinned_entries {
+    font-size: 12px;
+    color: #948f80;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+
+td { padding: 10px 0; border-top: 1px dashed #e3ddcf; vertical-align: top; }
+
+tr:first-child td { border-top: none; }
+
+.id { color: #a3502e; width: 36px; }
+.date { color: #948f80; width: 100px; }
+.name a { color: #201f1c; text-decoration: none; }
+.name a:hover { color: #a3502e; }
+
+footer {
+    margin-top: 56px;
+    font-size: 13px;
+    color: #948f80;
+    display: flex;
+    gap: 6px;
+}
+
+footer a { color: #201f1c; text-decoration: none; }
+footer a:hover { color: #a3502e; }
+
+.quote {
+    display: flex;
+    gap: 3px;
+    color: #948f80;
+    font-style: italic;
+}
