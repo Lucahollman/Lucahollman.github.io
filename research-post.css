@@ -1,0 +1,39 @@
+/* Styling for Research Post page */
+
+/* linkback */
+
+.linkback a {
+    color: #201f1c; 
+    text-decoration: none;
+    margin-top: 75px;
+    display: inline-block;
+}
+
+.linkback a:hover {
+    color: #a3502e;
+}
+
+/* Title */ 
+
+.title {
+    text-align: center;
+    margin-top: 1px;
+    border-bottom: 1px solid #201f1c;
+}
+
+.title h2 {
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    text-align: left;
+    display: block;
+}
+
+.title p {
+    display: flex;
+    gap: 3px;
+    color: #948f80;
+    font-style: italic;
+    text-align: left;
+}
