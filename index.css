@@ -66,3 +66,5 @@ tr:first-child td { border-top: none; }
 .name a { color: #201f1c; text-decoration: none; }
 .name a:hover { color: #a3502e; }
 
+a:hover { color: #a3502e; }
+

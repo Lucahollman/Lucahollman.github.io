@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luca Hollman</title>
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="dail-leargas.css">
+</head>
+<body>
+    <div class="contentwrapper">
+        <div class="linkback"><a href="index.html">...</a></div>
+        <div class="title">
+            <h2>Dáil Léargas</h2>
+            <p><a class="project-link" href="https://dail-leargas.duckdns.org/">Visit Dáil Léargas</a><a class="project-link" href="https://github.com/Lucahollman/dail-leargas">Github Repository</a></p>
+        </div>
+        <p>Dáil Léargas is a web application I created to make the spoken record of Dáil Éireann easier to navigate, analyse, and interpret. The site allows users to explore parliamentary activity through debate-level, TD-level, party-level, and word-level statistics, including word frequencies, language-use estimates, sentiment scores, and other descriptive measures.</p>
+
+        <p>I created the website using Python, SQL, FLask, HTML, and CSS. I developed Python scripts to retrieve parliamentary proceedings from the Oireachtas Open Data API, clean and process the raw text, and generate the statistics used throughout the site. This included using libraries such as VADER for sentiment analysis and Lingua for estimating the proportion of Irish and English used in parliamentary contributions.</p>
+
+        <p>I created an SQLite database to organise the resulting data, linking all data in a structured format. The Flask backend then queries this database dynamically to generate the different views and statistics displayed to users. I also designed and built the frontend myself using HTML and CSS, and I self-host the application using Caddy.</p>
+
+        <p>Git was also crucial throughout development, allowing me to track changes, preserve working versions of the site, and safely test fixes. Once the site was deployed, branching became particularly useful for making and testing fixes separately from the live version</p>
+
+        <p>Ultimately, I hope Dáil Léargas can make parliamentary proceedings more accessible to people who may not have the time or inclination to read through page after page of transcripts. By presenting the underlying record through statistics, the site can help users get a quicker sense of what was discussed in a particular debate, which issues are receiving attention, or what their local TD has been speaking about in Dáil Éireann.</p>
+    
+
+        <footer>
+                <a href="https://github.com/Lucahollman">Github</a>·<a href="https://ie.linkedin.com/in/luca-hollman">Linkedin</a>·<a href="https://www.instagram.com/lucahollman">Instagram</a>·<a href="mailto:lucahollman@gmail.com">lucahollman@gmail.com</a>
+            </footer>
+            <div class="quote">
+                <p>"Because it's there" -George Mallory</p>
+            </div>
+    </div>
+</html>
