@@ -2,14 +2,18 @@
 
 /* linkback */
 
-a {
-    color: #201f1c; 
+.linkback {
+    color: #948f80;
     text-decoration: none;
     margin-top: 75px;
     display: inline-block;
+    font-style: italic;
+    font-size: 25px;
 }
 
-a:hover { color: #a3502e; }
+.linkback:hover {
+    color: #a3502e;
+}
 
 /* Title */ 
 
