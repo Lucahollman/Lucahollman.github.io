@@ -2,12 +2,18 @@
 
  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Serif:wght@600&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #faf8f3;
 }
 
 .contentwrapper {
-    max-width: 600px; margin: 0 auto; 
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
 }
 
 footer {
@@ -15,17 +21,21 @@ footer {
     font-size: 13px;
     color: #948f80;
     display: flex;
-    gap: 6px;
+    flex-wrap: wrap;
+    gap: 1px;
 }
 
 footer a { color: #201f1c; text-decoration: none; }
 footer a:hover { color: #a3502e; }
 
 .quote {
-    display: flex;
-    gap: 3px;
+    flex-basis: 100%;
     color: #948f80;
     font-style: italic;
+}
+
+.quote p {
+    margin: 0;
 }
 
 @media (max-width: 600px) {
